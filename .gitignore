@@ -1,0 +1,19 @@
+# --- FRONTEND (React) ---
+SmartMenu.Client/node_modules/
+SmartMenu.Client/dist/
+SmartMenu.Client/.env
+
+# --- BACKEND (.NET) ---
+[Bb]in/
+[Oo]bj/
+.vs/
+SmartMenu.API/appsettings.Development.json
+SmartMenu.API/wwwroot/uploads/*
+
+# Resim klasörünü koru ama içindeki resimleri yükleme
+!SmartMenu.API/wwwroot/uploads/.gitkeep
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+*.user
