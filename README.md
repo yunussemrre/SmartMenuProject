@@ -63,13 +63,25 @@ dotnet ef database update
 
 # Uygulamayi baslatin:
 dotnet run
-2. Frontend HazirligiBashcd SmartMenu.Client
+```
+
+### 2. Frontend Hazirligi
+```bash
+cd SmartMenu.Client
 
 # Gerekli bagimliliklari yukleyin:
 npm install
 
 # Uygulamayi gelistirme modunda baslatin:
 npm run dev
-Varsayilan Giris Bilgileri (Demo)RolKullanici AdiSifreYonetici (Admin)admin1234Garson (Waiter)garson1123Asci (Chef)asci1123
+```
+
+## Varsayilan Giris Bilgileri (Demo)
+
+| Rol | Kullanici Adi | Sifre |
+|-----|---------------|-------|
+| Yonetici (Admin) | admin | 1234 |
+| Garson (Waiter) | garson1 | 123 |
+| Asci (Chef) | asci1 | 123 |
 
 Bu proje, kurumsal olcekte bir isletme yonetim mimarisi ornegi olarak gelistirilmistir.
